@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "motopark",
+  "info": {
+    "singularName": "moto",
+    "pluralName": "motopark",
+    "displayName": "Motopark"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ImagePng": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

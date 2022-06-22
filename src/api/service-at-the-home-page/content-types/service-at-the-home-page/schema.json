@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_at_the_home_pages",
+  "info": {
+    "singularName": "service-at-the-home-page",
+    "pluralName": "service-at-the-home-pages",
+    "displayName": "Service_at_the_HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service",
+      "mappedBy": "service_at_the_home_page"
+    }
+  }
+}

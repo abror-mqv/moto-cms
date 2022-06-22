@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Service_Name": {
+      "type": "string"
+    },
+    "Service_description": {
+      "type": "text"
+    },
+    "Service_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Service_Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Service_ID": {
+      "type": "string"
+    },
+    "service_at_the_home_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service-at-the-home-page.service-at-the-home-page",
+      "inversedBy": "services"
+    }
+  }
+}
