@@ -4,7 +4,8 @@
   "info": {
     "singularName": "moto",
     "pluralName": "motopark",
-    "displayName": "Motopark"
+    "displayName": "Motopark",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,16 @@
       "type": "text"
     },
     "ImagePng": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false
+      "private": true
     }
   }
 }

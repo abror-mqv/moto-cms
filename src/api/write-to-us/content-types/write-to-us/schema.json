@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "write_to_uses",
+  "info": {
+    "singularName": "write-to-us",
+    "pluralName": "write-to-uses",
+    "displayName": "Write_to_us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_name": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "email"
+    },
+    "user_phone": {
+      "type": "string"
+    },
+    "letter": {
+      "type": "text"
+    }
+  }
+}

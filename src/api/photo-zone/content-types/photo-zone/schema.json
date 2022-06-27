@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_zones",
+  "info": {
+    "singularName": "photo-zone",
+    "pluralName": "photo-zones",
+    "displayName": "Photo_Zone",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "data_create": {
+      "type": "date"
+    },
+    "url_imeg": {
+      "type": "string"
+    }
+  }
+}

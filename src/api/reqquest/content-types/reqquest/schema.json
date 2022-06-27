@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reqquests",
+  "info": {
+    "singularName": "reqquest",
+    "pluralName": "reqquests",
+    "displayName": "Request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "request_user_name": {
+      "type": "string"
+    },
+    "phone_numbers": {
+      "type": "string"
+    },
+    "data_calls": {
+      "type": "datetime"
+    }
+  }
+}

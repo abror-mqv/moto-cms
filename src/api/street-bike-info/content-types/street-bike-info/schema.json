@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "street_bike_infos",
+  "info": {
+    "singularName": "street-bike-info",
+    "pluralName": "street-bike-infos",
+    "displayName": "Street_Bike_Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "vkontakt": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "whats_app": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "about_us": {
+      "type": "text"
+    },
+    "certificate": {
+      "type": "richtext"
+    },
+    "geo_location": {
+      "type": "string"
+    }
+  }
+}

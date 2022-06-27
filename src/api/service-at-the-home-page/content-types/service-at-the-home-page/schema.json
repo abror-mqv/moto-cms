@@ -4,16 +4,17 @@
   "info": {
     "singularName": "service-at-the-home-page",
     "pluralName": "service-at-the-home-pages",
-    "displayName": "Service_at_the_HomePage"
+    "displayName": "Service_at_the_HomePage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "services": {
+    "service": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::service.service",
       "mappedBy": "service_at_the_home_page"
     }
