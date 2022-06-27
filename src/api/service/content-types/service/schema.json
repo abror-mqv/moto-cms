@@ -42,12 +42,6 @@
     },
     "Service_ID": {
       "type": "string"
-    },
-    "service_at_the_home_page": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::service-at-the-home-page.service-at-the-home-page",
-      "inversedBy": "services"
     }
   }
 }
