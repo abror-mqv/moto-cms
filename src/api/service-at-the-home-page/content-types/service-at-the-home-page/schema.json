@@ -15,7 +15,8 @@
     "service": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::service.service"
+      "target": "api::service.service",
+      "mappedBy": "service_at_the_home_page"
     }
   }
 }

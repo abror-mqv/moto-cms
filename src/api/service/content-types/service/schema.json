@@ -29,18 +29,19 @@
         "audios"
       ]
     },
-    "Service_Video": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Service_ID": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "service_at_the_home_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service-at-the-home-page.service-at-the-home-page",
+      "inversedBy": "service"
+    },
+    "url_photo": {
       "type": "string"
     }
   }
